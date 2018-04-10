@@ -1,0 +1,21 @@
+.container {
+    width: 960px;
+    height: 960px;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.main-box {
+    width: 960px;
+    height: 800px;
+    background-color: gray;
+}
+
+.small-box {
+    width: 300px;
+    height: 160;
+    background-color: blue;
+}
