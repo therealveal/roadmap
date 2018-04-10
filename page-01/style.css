@@ -13,10 +13,38 @@
     width: 50%;
     height: 800px;
     background-color: darksalmon;
+    box-sizing: border-box;
+    border: solid white 1px;
+
+
 }
 
 .right-section {
+    border: solid white 1px;
     width: 50%;
     height: 400px;
     background-color: darkcyan;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-color: black;
+    box-sizing: border-box;
+    border: solid white 1px;
+
+
+}
+
+.footer {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background-color: red;
+    box-sizing: border-box;
+    border: solid white 1px;
+
+
 }
