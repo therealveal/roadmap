@@ -1,0 +1,33 @@
+.container {
+    width: 960px;
+    height: 2000px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.leftnav {
+    width: 300px;
+    height: 1800px;
+    background-color: gray;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 930px;
+    height: 900px;
+    background-color: gray;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 960px;
+    height: 200px;
+    background-color: gray;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
