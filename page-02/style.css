@@ -1,6 +1,6 @@
 .container {
     width: 960px;
-    height: 2000px;
+    height: 760px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -10,16 +10,16 @@
 
 .leftnav {
     width: 300px;
-    height: 1800px;
-    background-color: gray;
+    height: 760px;
+    background-color: rgb(168, 134, 134);
     border: solid white 1px;
     box-sizing: border-box;
 }
 
 .section {
-    width: 930px;
-    height: 900px;
-    background-color: gray;
+    width: 660px;
+    height: 380px;
+    background-color: rgb(65, 65, 65);
     border: solid white 1px;
     box-sizing: border-box;
 }
@@ -27,7 +27,8 @@
 .footer {
     width: 960px;
     height: 200px;
-    background-color: gray;
+    background-color: rgb(131, 153, 129);
     border: solid white 1px;
     box-sizing: border-box;
+    margin: auto;
 }
