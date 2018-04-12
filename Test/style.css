@@ -1,0 +1,31 @@
+.container {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  flex-wrap: wrap  
+}
+
+.main-box {
+  width: 400px;
+  height: 800px;
+  background-color: black;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+.sml-box {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 800px;
+  height: 200px;
+  background-color: purple;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
