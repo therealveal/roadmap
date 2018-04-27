@@ -1,7 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .container {
-    width: 800px;
-    height: 800px;
-    background-color: gray;
+    max-width: 800px;
+    max-height: 600px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -11,40 +16,71 @@
 
 .left-section {
     width: 50%;
-    height: 800px;
-    background-color: darksalmon;
-    box-sizing: border-box;
-    border: solid white 1px;
-
-
+    height: auto;
+    padding: 10px;
 }
 
 .right-section {
-    border: solid white 1px;
     width: 50%;
-    height: 400px;
-    background-color: darkcyan;
-    box-sizing: border-box;
+    height: auto;
 }
 
 .header {
-    width: 800px;
+    max-width: 800px;
     height: 150px;
     margin: auto;
-    background-color: black;
-    box-sizing: border-box;
-    border: solid white 1px;
+    padding: 20px;
 
 
 }
 
 .footer {
-    width: 800px;
+    max-width: 800px;
     height: 200px;
     margin: auto;
-    background-color: red;
-    box-sizing: border-box;
-    border: solid white 1px;
+}
 
+.img {
+    width: 100%;
+}
 
+p {
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.caption {
+    font-family: sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+.links {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+a {
+    background-color: orange;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    
 }

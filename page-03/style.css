@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+}
+
+.main {
+    width: 960px;
+    height: 1200px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.bottom {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sml-box {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+}
